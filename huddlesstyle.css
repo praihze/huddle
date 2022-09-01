@@ -1,0 +1,657 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: aqua; */
+
+}
+
+main {
+    background-image: url(bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    width: 90% auto;
+    background-color: rgb(216, 253, 253);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5em;
+}
+
+header img {
+    height: 1.2em;
+}
+
+header button {
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-right: 40px;
+    margin-bottom: 0;
+}
+
+header button:hover {
+    box-shadow: 0.1px 0.5px 0.7px 0.5px rgb(180, 179, 179);
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1em;
+}
+
+.left {
+    width: 50%;
+    margin-left: 3em;
+    padding: 3em;
+    padding-top: 6em;
+}
+
+.right {
+    width: 50%;
+    margin: 50px;
+}
+
+nav img {
+    padding-top: 0;
+    width: 100%;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+}
+
+h1 {
+    width: 100%;
+    padding-bottom: 0.7em;
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.goal {
+    width: 100%;
+    padding-bottom: 0.5em;
+    font-size: 16px;
+    font-weight: 200px;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav button {
+    border: none;
+    background-color: rgb(255, 161, 177);
+    color: white;
+    border-radius: 20px;
+    padding: 15px 70px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin: 1.5em;
+    margin-left: 0;
+}
+
+.grow-together {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 70%;
+    margin: auto;
+    margin-top: 6em;
+    margin-bottom: 1.5em;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(211, 207, 207, 0.604);
+    padding: 2em;
+}
+
+.grow-together img {
+    width: 50%;
+    padding-bottom: 0;
+}
+
+.grow {
+    width: 70%;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 8em;
+    padding-bottom: 2em;
+
+}
+
+.grow h2 {
+    margin-bottom: 20px;
+}
+
+.grow p {
+    color: rgb(211, 207, 207);
+    font-weight: bold;
+}
+
+
+.flowing-conversation {
+    display: flex;
+    justify-content: space-between;
+
+    width: 70%;
+    margin: auto;
+    margin-bottom: 1.5em;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(211, 207, 207, 0.604);
+    padding: 2em;
+}
+
+.flowing-conversation img {
+    width: 50%;
+    padding-bottom: 0;
+}
+
+.flow {
+    width: 70%;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 8em;
+    padding-bottom: 2em;
+
+}
+
+.flow h2 {
+    margin-bottom: 20px;
+}
+
+.flow p {
+    color: rgb(211, 207, 207);
+    font-weight: bold;
+}
+
+.flowing-conversation2 {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 6em;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(211, 207, 207, 0.604);
+    padding: 2em;
+}
+
+.flowing-conversation2 img {
+    width: 50%;
+    padding-bottom: 0;
+}
+
+.flow2 {
+    width: 70%;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 8em;
+    padding-bottom: 2em;
+
+}
+
+.flow h2 {
+    margin-bottom: 20px;
+}
+
+.flow2 p {
+    color: rgb(211, 207, 207);
+    font-weight: bold;
+}
+
+aside {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(53 53 53 / 34%);
+    width: 60%;
+    margin: auto;
+    margin-bottom: -60px;
+    padding: 5px;
+    padding-top: 50px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+
+
+}
+
+aside h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+}
+
+
+aside button {
+    border: none;
+    background-color: rgb(255, 161, 177);
+    color: white;
+    border-radius: 30px;
+    padding: 20px 90px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin: 4em;
+    margin-left: 0;
+    margin-top: 2em;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: block;
+    padding: 5em;
+    padding-top: 120px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    margin-bottom: 2em;
+}
+
+.location {
+    display: flex;
+    gap: 20px;
+}
+
+.phone-no {
+    display: flex;
+    gap: 20px;
+}
+
+.Email {
+    display: flex;
+    gap: 20px;
+}
+
+.location p {
+
+    margin-bottom: 2em;
+}
+
+.phone-no p {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.Email p {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.contain img {
+    width: 20px;
+    height: 20px;
+    padding: 5px
+}
+
+ul {
+    list-style: none;
+}
+
+.contain {
+    display: flex;
+    gap: 50px;
+}
+
+.third {
+    padding-left: 5em;
+}
+
+.left2 li {
+    padding-left: 30px;
+    padding-bottom: 1.5em;
+}
+
+.second li:hover {
+    text-decoration: underline;
+}
+
+.third li:hover {
+    text-decoration: underline;
+}
+
+.right2 li {
+    padding-bottom: 1.5em;
+}
+
+.fourth {
+    padding-left: 50px;
+    font-size: 25px;
+    text-align: center;
+}
+
+i {
+    font-weight: 400;
+}
+
+.fourth i {
+    padding-left: 20px;
+
+}
+
+.fourth i:hover {
+    color: rgb(228, 22, 228);
+
+}
+
+.first {
+    width: 30%;
+}
+
+.copy p {
+    text-align: right;
+    font-size: 10px;
+    margin-top: 30px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 2em;
+    }
+
+    header img {
+        height: 1.2em;
+    }
+
+    header button {
+        border: none;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        padding: 5px 20px;
+        margin-left: 2em;
+        margin-bottom: 2em;
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: 700;
+
+    }
+
+    header button:hover {
+        box-shadow: 0.1px 0.5px 0.7px 0.5px rgb(180, 179, 179);
+
+    }
+
+    nav {
+        display: block;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        padding: 0;
+    }
+
+    nav .left {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+
+    }
+
+    nav .right {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+
+    }
+
+
+
+    section {
+        width: 100%;
+        margin: 100px 0;
+        box-sizing: border-box;
+    
+    }
+
+    .grow-together {
+        display: block;
+        width: 60%;
+        margin: auto;
+        text-align: center;
+
+    }
+
+    .grow-together img {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .grow {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .flowing-conversation {
+        display: block;
+        width: 60%;
+        margin: auto;
+        text-align: center;
+        margin-top: 30px;
+
+    }
+
+    .flowing-conversation img {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .flow {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .flowing-conversation2 {
+        display: block;
+        width: 60%;
+        margin: auto;
+        text-align: center;
+        margin-top: 30px;
+        
+
+    }
+
+    .flowing-conversation2 img {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .flow2 {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    aside {
+        width: 60%;
+        margin: auto;
+        background-color: white;
+        margin-bottom: -60px;
+        position: relative;
+        z-index: 2;
+       
+
+    }
+
+    aside h2 {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1em;
+    }
+
+
+    aside button {
+        border: none;
+        background-color: rgb(255, 161, 177);
+        color: white;
+        border-radius: 50px;
+        padding: 5px 20px;
+        font-size: 10px;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        margin: 1em auto;
+        margin-bottom: 2em;
+
+    }
+
+
+
+    footer {
+        width: 100%;
+            box-sizing: border-box;
+
+        background-color: black;
+        color: white;
+        display: block;
+        padding: 3em;
+        padding-top: 100px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .logo {
+        margin-bottom: 1em;
+    }
+
+    .location {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+    }
+
+    .phone-no {
+        display: flex;
+        gap: 20px;
+    }
+
+    .Email {
+        display: flex;
+        gap: 20px;
+    }
+
+    .location p {
+        font-size: 0.5em;
+        margin-bottom: 2em;
+    }
+
+    .phone-no p {
+        font-size: 0.5em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+
+    .Email p {
+        font-size: 0.5em;
+        padding-top: 1em;
+        padding-bottom: 0.5em;
+    }
+
+    .contain img {
+        width: 20px;
+        height: 20px;
+        padding: 5px
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .contain {
+        display: block;
+        gap: 0;
+    }
+
+    .left2 li {
+
+        padding-bottom: 1em;
+    }
+
+    .second li:hover {
+        text-decoration: underline;
+    }
+    li{
+        padding-bottom: 1em;
+    }
+    .third{
+        padding: 0;
+        
+    }
+
+    .third li:hover {
+        text-decoration: underline;
+    }
+
+    .right2 li {
+        padding-bottom: 1em;
+    }
+
+    .fourth {
+        font-size: 25px;
+        padding: 0;
+        display: flex;
+        width: 50%;
+        margin: auto;
+    
+        
+    }
+
+    i {
+        font-weight: 400;
+    }
+
+    .fourth i {
+        padding-left: 20px;
+
+    }
+
+    .fourth i:hover {
+        color: rgb(228, 22, 228);
+
+    }
+
+    .first {
+        width: 80%;
+    }
+    .copy{
+        width: 70%;
+        margin: auto;
+        margin: 0;
+    }
+    .second{
+        padding-top: 2em;
+    }
+
+    .copy p {
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        font-size: 10px;
+        padding-top: 1em;
+      
+    }
+
+}
